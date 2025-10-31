@@ -1,0 +1,15 @@
+services:
+  afgan:
+    build: .
+    container_name: afgan-server
+    ports:
+      - "80:38880"
+    environment:
+      - PORT=38880
+    restart: unless-stopped
+    networks:
+      - afgan-network
+
+networks:
+  afgan-network:
+    driver: bridge

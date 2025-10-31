@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, send_file, send_from_directory
+from flask import Flask, jsonify, send_file
 import tensorflow as tf
 import numpy as np
 from io import BytesIO
@@ -34,7 +34,7 @@ signal.signal(signal.SIGINT, signal_handler)
 def load_generator():
     global generator
     logger.info('Loading generator model...')
-    generator = tf.keras.models.load_model('model/afgan-generator.keras')
+    generator = tf.keras.models.load_model('afgan-generator.keras')
     logger.info('Generator loaded successfully')
 
 def generate_image():
