@@ -5,9 +5,10 @@
 </div>
 
 <div align="center">
-   <a href="https://github.com/StafLoker/afgan/releases"><img src="https://img.shields.io/github/downloads/StafLoker/afgan/total.svg?style=flat" alt="downloads"/></a>
-   <a href="https://github.com/StafLoker/afgan/releases"><img src="https://img.shields.io/github/release-pre/StafLoker/afgan.svg?style=flat" alt="latest version"/></a>
-   <a href="https://github.com/StafLoker/afgan/blob/main/LICENSE"><img src="https://img.shields.io/github/license/StafLoker/afgan.svg?style=flat" alt="license"/></a>
+   <a href="https://github.com/StafLoker/afgan/releases"><img src="https://img.shields.io/github/downloads/StafLoker/afgan/total.svg?style=flat" alt="downloads"></a>
+   <a href="https://github.com/StafLoker/afgan/pkgs/container/afgan"><img src="https://img.shields.io/badge/ghcr.io-afgan-blue?style=flat&logo=docker" alt="ghcr"/></a>
+   <a href="https://github.com/StafLoker/afgan/releases"><img src="https://img.shields.io/github/v/release/StafLoker/afgan?style=flat" alt="latest version"/></a>
+   <a href="https://github.com/StafLoker/afgan/blob/main/LICENSE"><img src="https://img.shields.io/github/license/StafLoker/afgan.svg?style=flat" alt="license"><a>
 
    <p>Minimalist web server for generating anime faces using AFGAN (Anime Face GAN).</p>
 
