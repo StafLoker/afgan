@@ -9,15 +9,15 @@
    <a href="https://github.com/StafLoker/afgan/releases"><img src="https://img.shields.io/github/release-pre/StafLoker/afgan.svg?style=flat" alt="latest version"/></a>
    <a href="https://github.com/StafLoker/afgan/blob/main/LICENSE"><img src="https://img.shields.io/github/license/StafLoker/afgan.svg?style=flat" alt="license"/></a>
 
-   <p></p>
+   <p>Minimalist web server for generating anime faces using AFGAN (Anime Face GAN).</p>
 
-<img src="media/gan-dc-3n-grupo-pr1-12-grid.png" width="550" alt="Faces">
+<img src="media/afgan_grid.png" width="550" alt="Faces">
 </div>
 
 # Training
 ## Loss
 <div align="center">
-   <img src="media/loss-history.png" width="500" alt="History of image 1">
+   <img src="media/loss_history.png" width="500" alt="History of image 1">
 </div>
 
 ## History
@@ -27,6 +27,20 @@
    <img src="media/training_2.gif" width="90" alt="History of image 3">
    <img src="media/training_3.gif" width="90" alt="History of image 4">
    <img src="media/training_4.gif" width="90" alt="History of image 5">
+</div>
+
+## Model architecture
+
+DFGAN ( like DCGAN ).
+
+<div align="center">
+   <img src="media/afgan_arch.png" width="700" alt="Model architecture">
+</div>
+
+## Screenshots
+
+<div align="center">
+   <img src="media/web.png" width="700" alt="Web screenshots">
 </div>
 
 ## Contributing
