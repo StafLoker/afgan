@@ -14,20 +14,18 @@
 <img src="media/afgan_grid.png" width="550" alt="Faces">
 </div>
 
-# Training
-## Loss
-<div align="center">
-   <img src="media/loss_history.png" width="500" alt="History of image 1">
-</div>
+## Quick Start
 
-## History
-<div align="center">
-   <img src="media/training_0.gif" width="90" alt="History of image 1">
-   <img src="media/training_1.gif" width="90" alt="History of image 2">
-   <img src="media/training_2.gif" width="90" alt="History of image 3">
-   <img src="media/training_3.gif" width="90" alt="History of image 4">
-   <img src="media/training_4.gif" width="90" alt="History of image 5">
-</div>
+**Docker**
+```bash
+docker pull ghcr.io/stafloker/afgan:latest
+docker run -p 80:38880 ghcr.io/stafloker/afgan:latest
+```
+
+**Docker Compose**
+```bash
+docker-compose up
+```
 
 ## Model architecture
 
@@ -35,6 +33,21 @@ DFGAN ( like DCGAN ).
 
 <div align="center">
    <img src="media/afgan_arch.png" width="700" alt="Model architecture">
+</div>
+
+## Training
+### Loss
+<div align="center">
+   <img src="media/loss_history.png" width="500" alt="History of image 1">
+</div>
+
+### History
+<div align="center">
+   <img src="media/training_0.gif" width="90" alt="History of image 1">
+   <img src="media/training_1.gif" width="90" alt="History of image 2">
+   <img src="media/training_2.gif" width="90" alt="History of image 3">
+   <img src="media/training_3.gif" width="90" alt="History of image 4">
+   <img src="media/training_4.gif" width="90" alt="History of image 5">
 </div>
 
 ## Screenshots

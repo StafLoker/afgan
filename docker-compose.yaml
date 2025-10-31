@@ -1,6 +1,6 @@
 services:
   afgan:
-    build: .
+    image: ghcr.io/stafloker/afgan:latest
     container_name: afgan-server
     ports:
       - "80:38880"
